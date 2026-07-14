@@ -1,23 +1,23 @@
-num1 = int(input("Digite o primeiro número: "))
-num2 = int(input("Digite o segundo número: "))
-operação = input("Digite a operação: ")
+n1 = int(input("Digite o Primeiro Número: "))
+n2 = int(input("Digite o Segundo Número: "))
+operação = input("Digite a Operação: ")
 
 match operação:
     case "+":
-        resultado = f"{num1 + num2}✅"
+        resultado = f"{n1 + n2}✅"
     case "-":
-        resultado = f"{num1 - num2}✅"
-    case "*":
-        resultado = f"{num1 * num2}✅"
+        resultado =  f"{n1 - n2}✅"
+    case "*":               
+        resultado = f"{n1 * n2}✅"
     case "/":
-        resultado = f"{num1 / num2}✅"
+        resultado = f"{n1 / n2}✅"
     case "**":
-        resultado = f"{num1 ** num2}✅"
-    case "//":
-        resultado = f"{num1 // num2}✅"
+        resultado = f"{n1 ** n2}✅"
+    case "//": 
+        resultado = f"{n1 // n2}✅"
     case "%":
-        resultado = f"{num1 % num2}✅"
+        resultado = f"{n1 % n2}✅"
     case _:
-        resultado = "Operação inválida❌"
+        resultado = "Operação Inválida❌"
         
-print(f"O resultado da operação é: {resultado}")
+print(f"O Resultado da Operação é: {resultado}")
