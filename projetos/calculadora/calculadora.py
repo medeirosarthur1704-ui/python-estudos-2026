@@ -7,13 +7,13 @@ match operação:
         resultado = f"{n1 + n2}✅"
     case "-":
         resultado =  f"{n1 - n2}✅"
-    case "*":               
+    case "*":
         resultado = f"{n1 * n2}✅"
     case "/":
         resultado = f"{n1 / n2}✅"
     case "**":
         resultado = f"{n1 ** n2}✅"
-    case "//": 
+    case "//":
         resultado = f"{n1 // n2}✅"
     case "%":
         resultado = f"{n1 % n2}✅"
