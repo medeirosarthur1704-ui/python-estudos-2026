@@ -1,9 +1,9 @@
-import calendar
+import calendar 
 import locale
 
-locale.setlocale(locale.LC_TIME, ("ptb"))
+locale.setlocale(locale.LC_TIME, "ptb")
 
-ano = int(input("Digite o Ano: "))
-mes = int(input("Digite o Mês: "))
+ano = int(input("Digite o ano: "))
+mes = int(input("Digite o mês: "))
 
 print("\n", calendar.month(ano, mes))
