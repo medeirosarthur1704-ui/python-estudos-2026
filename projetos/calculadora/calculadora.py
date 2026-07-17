@@ -1,29 +1,29 @@
 try:
-    n1 = int(input("DIGITE O PRIMEIRO NÚMERO: "))
-    n2 = int(input("DIGITE O SEGUNDO NÚMERO: "))
-    operação = input("DIGITE A OPERAÇÃO: ")
-
+    n1 = float(input("Digite o primeiro número: "))
+    n2 = float(input("Digite o segundo número: "))
+    operação = input("Digite a operação: ")
     match operação:
         case "+":
-            resultado = n1 + n2
+            resultado = f"{n1 + n2:.0f}✅"
         case "-":
-            resultado = n1 - n2
+            resultado = f"{n1 - n2:.0f}✅"
         case "*":
-            resultado = n1 * n2
+            resultado = f"{n1 * n2:.0f}✅"
         case "/":
-            resultado = n1 / n2
+            resultado = f"{n1 / n2:.2f}✅"
         case "**":
-            resultado = n1 ** n2
+            resultado = f"{n1 ** n2}✅"
         case "//":
-            resultado = n1 // n2
+            resultado = f"{n1 // n2}✅"
         case "%":
-            resultado = n1 % n2
+            resultado = f"{n1 % n2}✅"
         case _:
-            resultado = "OPERAÇÃO INVÁLIDA"
-
-    print(f"O RESULTADO DA OPERAÇÃO É: {resultado}")
-
+            resultado = "❌ Operação inválida"
+    
+    print(f"O resultado da operação é: {resultado}")
 except ValueError:
-    print("DIGITE APENAS NÚMEROS.")
+    print("⚠️  Erro: Digite apenas números!")
 except ZeroDivisionError:
-    print("NÃO É POSSÍVEL DIVIDIR POR ZERO.")
+    print("⚠️  Erro: Não é possivel dividir por zero.")
+    
+    
