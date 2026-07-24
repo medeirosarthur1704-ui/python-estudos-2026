@@ -1,6 +1,6 @@
 import pwinput
 
-senha = pwinput.pwinput("Digite sua senha: ", mask="*")
+senha = pwinput.pwinput("Digite sua senha: ", mask = "*")
 
 senha_oculta = "*" * len(senha)
 
