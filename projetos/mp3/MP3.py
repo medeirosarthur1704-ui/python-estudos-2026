@@ -1,4 +1,5 @@
 import pygame
+
 try:
     pygame.mixer.init()
 
