@@ -1,7 +1,10 @@
+from time import sleep
+
 import qrcode
 
 dados = input("Digite um link: ")
-print("Analisando informações...")
+print("PROCESSANDO...")
+sleep(3)
 
 imagem = qrcode.make(dados)
 
