@@ -11,7 +11,7 @@ Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado 
 - Hipotenusa
 - MP3
 - QR Code
-- Senhas aleatórias
+- Gerador de senhas
 - Senhas ocultas
 - Tabuada
 - Trigonometria
