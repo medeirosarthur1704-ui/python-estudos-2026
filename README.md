@@ -12,9 +12,37 @@ Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado 
 - MP3
 - QR Code
 - Gerador de senhas
-- Senhas ocultas
+- Senhas seguras
 - Tabuada
 - Trigonometria
+
+  ## 🚀 Projetos em Destaque
+
+Uma seleção dos projetos mais completos e visuais deste repositório.
+
+### 🔐 Senhas Ocultas
+Sistema de criação e confirmação de senha no terminal, com PIN de segurança: a senha é digitada de forma mascarada (`pwinput`) e só é revelada na tela se o usuário informar corretamente o PIN de 4 dígitos criado no início. Inclui banner ASCII (`pyfiglet`) e tratamento de interrupção do usuário (`KeyboardInterrupt`).
+**Tecnologias:** `pyfiglet`, `pwinput`, `time.sleep`, tratamento de exceções
+
+### 🔑 Senha Segura
+Gerador de senhas aleatórias e criptograficamente seguras usando `secrets.token_hex()`, que produz uma sequência hexadecimal de 16 caracteres.
+**Tecnologias:** `secrets`, `time.sleep`
+
+### 🧮 Calculadora
+Calculadora de terminal com 7 operações (soma, subtração, multiplicação, divisão, potenciação, divisão inteira e módulo), usando `match/case` para selecionar a operação. Trata erros de entrada inválida, divisão por zero e interrupção pelo usuário.
+**Tecnologias:** `pyfiglet`, `match/case`, tratamento de exceções (`ValueError`, `ZeroDivisionError`, `KeyboardInterrupt`)
+
+### 📱 QR Code
+Gera uma imagem de QR Code a partir de um link digitado pelo usuário, salva o arquivo como PNG e abre automaticamente no visualizador padrão do sistema.
+**Tecnologias:** `qrcode`
+
+### 🎵 Player de MP3
+Player de áudio de terminal com controle interativo em tempo real: carrega um arquivo de música e permite pausar, retomar e parar a reprodução via comandos digitados, com tratamento de erro para arquivos inválidos.
+**Tecnologias:** `pygame.mixer`
+
+---
+
+*Cada projeto está disponível na pasta `/projetos` deste repositório, com o código-fonte comentado.*
 
 ## Tecnologias e conceitos praticados
 
