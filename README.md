@@ -16,7 +16,7 @@ Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado 
 - Tabuada
 - Trigonometria
 
-  ## 🚀 Projetos em Destaque
+## 🚀 Projetos em Destaque
 
 Uma seleção dos projetos mais completos e visuais deste repositório.
 
