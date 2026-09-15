@@ -13,29 +13,29 @@ try:
 
     # Banner de título, em vermelho
     banner = pyfiglet.figlet_format("MP3 Player", font="slant")
-    print(f"\033[1;38;2;255;0;0m{banner}\n")
+    print(f"\033\n[1;38;2;255;0;0m{banner}")
 
     # Inicializa o subsistema de áudio do pygame — precisa rodar antes de tocar qualquer som
     pygame.mixer.init()
 
     # Pede o caminho/nome do arquivo de música que o usuário quer tocar
-    nome_arquivo = input("\033[1;33m\n[+] Informe o nome do arquivo de música: ")
+    nome_arquivo = input("\033[1;33m\n[+] Informe o nome do arquivo de música: \033[1;35m ")
 
     # Carrega o arquivo de áudio na memória
     pygame.mixer.music.load(nome_arquivo)
-    print("\033[1;32m[+] Reproduzindo música...")
+    print("\033[1;32m\n[+] Reproduzindo música...")
     sleep(2)  # pausa só pra dar a sensação de "processamento"
 
     # Começa a tocar a música carregada
     pygame.mixer.music.play()
-    print("\033[1;32mMúsica em reprodução. Use os comandos abaixo para controlar a reprodução.")
+    print("\033[1;32m\n[+] Música em reprodução. Use os comandos abaixo para controlar a reprodução.")
 
 
     while True:
 
         # Loop de comandos: fica esperando o usuário digitar uma ação
         comando = input(
-            "\033[1;36mDigite [P] para pausar, [C] para continuar ou [S] para sair: "
+            "\033[1;36m\n[!] Digite [P] para pausar, [C] para continuar ou [S] para sair: "
         ).strip().upper()
 
         if comando == "P":
@@ -44,20 +44,20 @@ try:
 
         elif comando == "C":
             pygame.mixer.music.unpause()  # retoma de onde parou
-            print("\033[1;32mReprodução continuada.")
+            print("\033[1;32m\n[+] Reprodução continuada.")
 
         elif comando == "S":
             pygame.mixer.music.stop()    # para a reprodução por completo
-            print("\033[1;35mReprodução encerrada.")
+            print("\033[1;35m\n[-] Reprodução encerrada.")
             break                        # sai do while True, encerrando o programa
 
         else:
-            print("\033[1;31mComando inválido. Tente novamente.")
+            print("\033[1;31m\n[!] Comando inválido. Tente novamente.")
 
 
 # pygame.error cobre falhas como arquivo inexistente, formato não suportado, etc.
 except pygame.error:
-    print("\033[1;31mErro: não foi possível carregar ou reproduzir o arquivo de música.")
+    print("\033[1;31m\n[!] Erro: não foi possível carregar ou reproduzir o arquivo de música.")
 except KeyboardInterrupt:
     # Se o usuário apertar Ctrl+C a qualquer momento dentro do try 
-    print("\n\033[1;31m[-] Processo interrompido pelo usuário.")
+    print("\n\033[1;31m\n[!] Processo interrompido pelo usuário.")
