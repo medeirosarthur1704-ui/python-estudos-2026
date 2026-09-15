@@ -1,55 +1,70 @@
-from time import sleep      # importa sleep, usado pra criar uma pausa (efeito de "processando")
-import pyfiglet             # importa a lib que gera o banner em ASCII art
+# ================================================================
+# CALCULADORA
+# Calculadora de terminal com 7 operações matemáticas (+, -, *, /,
+# **, //, %), selecionadas via match/case. Trata erros de entrada
+# inválida, divisão por zero e interrupção do usuário (Ctrl+C).
+# ================================================================
+
+from time import sleep      # cria uma pausa (efeito de "processando")
+import pyfiglet             # gera o banner em ASCII art
+
 
 try:
-    # Imprime o título "Calculadora" estilizado com a fonte "slant"
-    print(pyfiglet.figlet_format("Calculadora", font="slant"))
 
-    # Pede o primeiro número; já converte pra float (aceita decimais)
-    n1 = float(input("\033[1;33mDigite o primeiro número: "))
-    # Pede o segundo número, também como float
-    n2 = float(input("\033[1;33mDigite o segundo número: "))
-    # Pergunta qual operação o usuário quer fazer (texto, sem conversão)
-    operação = input("\033[1;33mDigite a operação (+, -, *, /, **, //, %): ")
+    # Banner de título, em vermelho
+    banner = pyfiglet.figlet_format("Calculadora", font="slant")
+    print(f"\033[1;38;2;255;0;0m{banner}\n")
 
-    print("\033[1;35mCalculando...")
-    sleep(1)  # Pausa de 1 segundo só pra dar a sensação de "processamento"
+    # Pede os dois números (já convertidos pra float, aceitam decimais)
+    n1 = float(input("\033[1;38;2;255;140;0m \n[+] Digite o primeiro número: "))
+    n2 = float(input("\033[1;38;2;255;140;0m \n[+] Digite o segundo número: "))
 
-    # match/case funciona como um "switch": compara o valor de 'operação'
-    # com cada caso abaixo e executa o bloco correspondente
+    # Pergunta qual operação o usuário quer fazer
+    operação = input("\033[1;38;2;255;140;0m \n[+] Digite a operação (+, -, *, /, **, //, %): ")
+
+    print("\033[1;38;2;180;0;255m[+] Calculando...")
+    sleep(2)  # pausa só pra dar a sensação de "processamento"
+
+    # match/case funciona como um "switch": compara 'operação' com
+    # cada caso abaixo e executa o bloco correspondente
     match operação:
+
         case "+":
-            # :.0f formata o resultado sem casas decimais
-            resultado = f"\033[1;32m{n1 + n2:.0f}"
+            resultado = f"\033[1;38;2;0;255;0m{n1 + n2:.0f}"
+
         case "-":
-            resultado = f"\033[1;32m{n1 - n2:.0f}"
+            resultado = f"\033[1;38;2;0;255;0m{n1 - n2:.0f}"
+
         case "*":
-            resultado = f"\033[1;32m{n1 * n2:.0f}"
+            resultado = f"\033[1;38;2;0;255;0m{n1 * n2:.0f}"
+
         case "/":
             # :.2f mantém 2 casas decimais (divisão raramente é número inteiro)
-            resultado = f"\033[1;32m{n1 / n2:.2f}"
+            resultado = f"\033[1;38;2;0;255;0m{n1 / n2:.2f}"
+
         case "**":
-            # potenciação (n1 elevado a n2)
-            resultado = f"\033[1;32m{n1 ** n2:.2f}"
+            resultado = f"\033[1;38;2;0;255;0m{n1 ** n2:.2f}"
+
         case "//":
-            # divisão inteira (arredonda pra baixo, descarta o resto)
-            resultado = f"\033[1;32m{n1 // n2:.0f}"
+            resultado = f"\033[1;38;2;0;255;0m{n1 // n2:.0f}"
+
         case "%":
-            # módulo/resto da divisão
-            resultado = f"\033[1;32m{n1 % n2:.2f}"
+            resultado = f"\033[1;38;2;0;255;0m{n1 % n2:.2f}"
+
         case _:
             # "_" é o caso padrão, cai aqui se não bater com nenhuma operação acima
-            resultado = "\033[1;31mOperação inválida"
+            resultado = "\033[1;38;2;255;0;0m\n[-] Operação inválida"
 
-    print(f"\033[1;32mO resultado da operação é: {resultado}")
+    print(f"\033[1;38;2;0;255;255m\n[+] O resultado da operação é: {resultado}")
+
 
 # Cada except trata um tipo específico de erro que pode quebrar o programa:
+
 except ValueError:
-    # Acontece se o usuário digitar algo que não é número no input
-    print("\033[1;31mErro: Digite apenas números!")
+    print("\033[1;38;2;255;0;0m[-] Erro: Digite apenas números!")
+
 except ZeroDivisionError:
-    # Acontece se tentar dividir por zero (/ , // ou %)
-    print("\033[1;31mErro: Não é possível dividir por zero.")
+    print("\033[1;38;2;255;0;0m[-] Erro: Não é possível dividir por zero.")
+
 except KeyboardInterrupt:
-    # Acontece se o usuário apertar Ctrl+C no meio da execução
-    print("\033[1;34mOperação cancelada pelo usuário.")
+    print("\033[1;38;2;255;20;147m[-] Operação cancelada pelo usuário.")
