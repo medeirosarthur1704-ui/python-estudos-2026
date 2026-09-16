@@ -59,7 +59,7 @@ Player de áudio de terminal com controle interativo em tempo real: carrega um a
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/medeirosarthur1704-ui/python-estudos-2026.git
+git clone https://github.com/tturwcode/python-estudos-2026.git
 ```
 
 
