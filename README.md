@@ -62,12 +62,22 @@ Player de áudio de terminal com controle interativo em tempo real: carrega um a
 git clone https://github.com/medeirosarthur1704-ui/python-estudos-2026.git
 ```
 
-2. Entre na pasta de um projeto.
 
-3. Execute o arquivo desejado:
+2. Instale as dependências:
+```
+pip install -r requirements.txt
+```
 
-```bash
-python nome_do_arquivo.py
+
+3. Entre na pasta de um projeto:
+```
+cd projetos/nome_do_projeto
+```
+
+
+4. Execute o arquivo desejado:
+```
+python nome_do_projeto.py
 ```
 
 ## Objetivo

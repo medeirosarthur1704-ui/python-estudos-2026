@@ -1,0 +1,4 @@
+﻿pyfiglet
+qrcode
+pygame
+pwinput
