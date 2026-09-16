@@ -11,8 +11,8 @@ Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado 
 - Hipotenusa
 - MP3
 - QR Code
-- Gerador de senhas
-- Senhas seguras
+- Gerador de Senhas Seguras
+- Gerenciador de Senhas Simples
 - Tabuada
 - Trigonometria
 
@@ -20,11 +20,11 @@ Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado 
 
 Uma seleção dos projetos mais completos e visuais deste repositório.
 
-### 🔐 Senhas Seguras
+### 🔐 Gerenciador de Senhas Simples
 Sistema de criação e confirmação de senha no terminal, com PIN de segurança: a senha é digitada de forma mascarada (`pwinput`) e só é revelada na tela se o usuário informar corretamente o PIN de 4 dígitos criado no início. Inclui banner ASCII (`pyfiglet`) e tratamento de interrupção do usuário (`KeyboardInterrupt`).
 **Tecnologias:** `pyfiglet`, `pwinput`, `time.sleep`, tratamento de exceções
 
-### 🔑 Gerador de Senhas
+### 🔑 Gerador de Senhas Seguras
 Gerador de senhas aleatórias e criptograficamente seguras usando `secrets.token_hex()`, que produz uma sequência hexadecimal de 16 caracteres.
 **Tecnologias:** `secrets`, `time.sleep`
 
