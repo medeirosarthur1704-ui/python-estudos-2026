@@ -55,7 +55,7 @@ try:
             # "_" é o caso padrão, cai aqui se não bater com nenhuma operação acima
             resultado = "\033[1;38;2;255;0;0m\n[-] Operação inválida"
 
-    print(f"\033[1;38;2;0;255;255m\n[+] O resultado da operação é: {resultado}")
+    print(f"\033[1;38;2;0;255;255m\n[+] O resultado da operação é: {resultado}\033[0m")
 
 
 # Cada except trata um tipo específico de erro que pode quebrar o programa:
