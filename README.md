@@ -64,18 +64,20 @@ git clone https://github.com/medeirosarthur1704-ui/python-estudos-2026.git
 
 
 2. Instale as dependências:
+```
 pip install -r requirements.txt
+```
 
 
 3. Entre na pasta de um projeto:
+```
 cd projetos/nome_do_projeto
+```
 
 
 4. Execute o arquivo desejado:
+```
 python nome_do_projeto.py
-
-```bash
-python nome_do_arquivo.py
 ```
 
 ## Objetivo
