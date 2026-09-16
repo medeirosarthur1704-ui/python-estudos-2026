@@ -14,7 +14,7 @@ import locale                # permite exibir datas em português
 locale.setlocale(locale.LC_TIME, "ptb")
 
 # Banner de título, em amarelo
-banner = pyfiglet.figlet_format("Calendário")
+banner = pyfiglet.figlet_format("Calendário", font="slant")
 print(f"\033[1;38;2;255;255;0m{banner}\n")
 
 # Pede o ano e o mês que o usuário quer visualizar
