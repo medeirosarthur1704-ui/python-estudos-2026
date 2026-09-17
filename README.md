@@ -51,7 +51,9 @@ Player de áudio de terminal com controle interativo em tempo real: carrega um a
 
 Este diagrama apresenta a organização dos projetos Python e suas principais dependências.
 
-![Arquitetura dos projetos Python](docs/diagrama.png)
+<a href="docs/diagrama.png">
+  <img src="docs/diagrama.png" alt="Arquitetura dos projetos Python" width="100%">
+</a>
 
 ---
 
