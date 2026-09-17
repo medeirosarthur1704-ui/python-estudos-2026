@@ -1,4 +1,4 @@
-# Estudos de Python — 2026
+# Estudos de Python 
 
 Repositório criado para reunir pequenos projetos desenvolvidos durante meus estudos de Python.
 
