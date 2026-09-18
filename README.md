@@ -16,6 +16,7 @@ Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado 
 - Tabuada
 - Trigonometria
 
+
 ## 🚀 Projetos em Destaque
 
 Uma seleção dos projetos mais completos e visuais deste repositório.
@@ -44,6 +45,7 @@ Player de áudio de terminal com controle interativo em tempo real: carrega um a
 
 *Cada projeto está disponível na pasta `/projetos` deste repositório, com o código-fonte comentado.*
 
+
 ---
 
 
@@ -54,6 +56,7 @@ Este diagrama apresenta a organização dos projetos Python e suas principais de
 ![Arquitetura dos projetos Python](docs/diagrama.png)
 
 ___
+
 
 
 ## Tecnologias e conceitos praticados
