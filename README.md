@@ -45,15 +45,11 @@ Player de áudio de terminal com controle interativo em tempo real: carrega um a
 *Cada projeto está disponível na pasta `/projetos` deste repositório, com o código-fonte comentado.*
 
 
----
+## 🏗️ Arquitetura do projeto
 
-## 🏗️ Arquitetura do Projeto
+Este diagrama apresenta a organização dos projetos Python e suas principais dependências.
 
-Este diagrama representa a organização dos projetos Python, suas dependências e a interação com o usuário e o sistema.
-
-![Arquitetura dos projetos Python](docs/diagrama.png)
-
----
+![Arquitetura dos projetos Python](docs/diagrama.svg)
 
 
 ## Tecnologias e conceitos praticados
