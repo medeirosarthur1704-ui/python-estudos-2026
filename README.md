@@ -4,7 +4,6 @@ Repositório criado para reunir pequenos projetos desenvolvidos durante meus est
 
 Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado por Gustavo Guanabara, e utilizando este espaço para praticar lógica de programação, organização de código e bibliotecas do Python.
 
-## Projetos
 
 ## Projetos
 
