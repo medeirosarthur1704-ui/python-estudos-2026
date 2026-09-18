@@ -1,4 +1,4 @@
-﻿pyfiglet
+pyfiglet
 qrcode
 pygame
 pwinput
