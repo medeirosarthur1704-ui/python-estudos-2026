@@ -50,7 +50,7 @@ Player de áudio de terminal com controle interativo em tempo real: carrega um a
 
 ---
 
-*Cada projeto está disponível na pasta `/projetos` deste repositório, com o código-fonte comentado.*
+Cada projeto está disponível na pasta `/projetos`
 
 
 ---
