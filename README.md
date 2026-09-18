@@ -4,6 +4,9 @@ Repositório criado para reunir pequenos projetos desenvolvidos durante meus est
 
 Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado por Gustavo Guanabara, e utilizando este espaço para praticar lógica de programação, organização de código e bibliotecas do Python.
 
+---
+
+
 
 ## Projetos
 
@@ -16,6 +19,9 @@ Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado 
 - [Gerenciador de Senhas Simples](projetos/Gerenciador%20de%20Senhas%20Simples/Gerenciador%20de%20Senhas%20Simples.py)
 - [Tabuada](projetos/tabuada/tabuada.py)
 - [Trigonometria](projetos/Trigonometria/trigonometria.py)
+
+---
+
 
 
 ## 🚀 Projetos em Destaque
