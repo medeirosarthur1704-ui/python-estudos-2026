@@ -6,15 +6,17 @@ Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado 
 
 ## Projetos
 
-- Calculadora
-- Calendário
-- Hipotenusa
-- MP3
-- QR Code
-- Gerador de Senhas Seguras
-- Gerenciador de Senhas Simples
-- Tabuada
-- Trigonometria
+## Projetos
+
+- [Calculadora](projetos/calculadora/calculadora.py)
+- [Calendário](projetos/calendario/calendario.py)
+- [Hipotenusa](projetos/Hipotenusa/hipotenusa.py)
+- [MP3](projetos/mp3/MP3.py)
+- [QR Code](projetos/QR%20code/QR%20code.py)
+- [Gerador de Senhas Seguras](projetos/Gerador%20de%20Senhas%20Seguras/Gerador%20de%20Senhas%20Seguras.py)
+- [Gerenciador de Senhas Simples](projetos/Gerenciador%20de%20Senhas%20Simples/Gerenciador%20de%20Senhas%20Simples.py)
+- [Tabuada](projetos/tabuada/tabuada.py)
+- [Trigonometria](projetos/Trigonometria/trigonometria.py)
 
 
 ## 🚀 Projetos em Destaque
