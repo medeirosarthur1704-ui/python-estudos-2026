@@ -11,10 +11,10 @@ Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado 
 ## Projetos
 
 - [Calculadora](projetos/Calculadora/calculadora.py)
-- [Calendário](projetos/Calendario/calendario.py)
+- [Calendário](projetos/Calendário/calendario.py)
 - [Hipotenusa](projetos/Hipotenusa/hipotenusa.py)
-- [MP3](projetos/MP3/MP3.py)
-- [QR Code](projetos/QR%20Code/QR%20Code.py)
+- [MP3](projetos/MP3/mp3.py)
+- [QR Code](projetos/QR%20code/QR%20code.py)
 - [Gerador de Senhas Seguras](projetos/Gerador%20de%20Senhas%20Seguras/Gerador%20de%20Senhas%20Seguras.py)
 - [Gerenciador de Senhas Simples](projetos/Gerenciador%20de%20Senhas%20Simples/Gerenciador%20de%20Senhas%20Simples.py)
 - [Tabuada](projetos/Tabuada/tabuada.py)
