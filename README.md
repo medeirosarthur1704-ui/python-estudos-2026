@@ -24,6 +24,8 @@ Atualmente, estou acompanhando o curso de Python do Curso em Vídeo, ministrado 
 
 
 
+
+
 ## 🚀 Projetos em Destaque
 
 Uma seleção dos projetos mais completos e visuais deste repositório.
@@ -56,11 +58,15 @@ Cada projeto está disponível na pasta `/projetos`
 ---
 
 
+
+
 ## 🏗️ Arquitetura do projeto
 
 Este diagrama apresenta a organização dos projetos Python e suas principais dependências.
 
 ![Arquitetura dos projetos Python](docs/diagrama.png)
+
+
 
 ___
 
@@ -75,6 +81,11 @@ ___
 - Tratamento de exceções: `try` e `except`
 - Funções e módulos
 - Bibliotecas como `pygame`, `pyfiglet`, `pwinput` e `secrets`
+  
+---
+
+
+
 
 ## Como executar
 
